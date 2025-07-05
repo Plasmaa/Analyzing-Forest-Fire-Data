@@ -18,20 +18,20 @@ This project explores forest fire incidents and their severity using a dataset o
   - Found that most fires occurred in **August** and **September**, with a small spike in **March**.  
   - Fires were more common during **weekends**.
 
-![Fires by Day](Rplot03.png)
-![Fires by Month](Rplot04.png)
+![Fires by Day](plots/Rplot03.png)
+![Fires by Month](plots/Rplot04.png)
 
 - 🔍 **Severity Analysis:**  
   - Explored how features like temperature, humidity, wind, and rainfall affect fire area.  
   - Used `facet_wrap()` to compare variables visually.
 
-![Variable Relationship (with Outliers)](Rplot01.png)
-![Variable Relationship (outliers removed)](Rplot.png)
+![Variable Relationship (with Outliers)](plots/Rplot01.png)
+![Variable Relationship (outliers removed)](plots/Rplot.png)
 
 - 📉 **Monthly Variable Patterns:**  
   - Checked how variables like temperature, wind, and humidity vary by month.
 
-![Variable Trends over Months](Rplot02.png)
+![Variable Trends over Months](plots/Rplot02.png)
 
 ## 🧠 Skills Used
 
