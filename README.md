@@ -7,7 +7,6 @@ This project explores forest fire incidents and their severity using a dataset o
 - `forestfires.csv` – The dataset containing fire incidents, weather data, and area burned.
 - `forest_fire_analysis.Rmd` – R Markdown file containing the full analysis and visualizations.
 - `README.md` – This file.
-- `Rplot*.png` – Plots generated during the project.
 
 ## 🚀 What I Did
 
@@ -18,20 +17,12 @@ This project explores forest fire incidents and their severity using a dataset o
   - Found that most fires occurred in **August** and **September**, with a small spike in **March**.  
   - Fires were more common during **weekends**.
 
-![Fires by Day](plots/Rplot03.png)
-![Fires by Month](plots/Rplot04.png)
-
 - 🔍 **Severity Analysis:**  
   - Explored how features like temperature, humidity, wind, and rainfall affect fire area.  
   - Used `facet_wrap()` to compare variables visually.
 
-![Variable Relationship (with Outliers)](plots/Rplot01.png)
-![Variable Relationship (outliers removed)](plots/Rplot.png)
-
-- 📉 **Monthly Variable Patterns:**  
-  - Checked how variables like temperature, wind, and humidity vary by month.
-
-![Variable Trends over Months](plots/Rplot02.png)
+- ⚠️ **Outlier Handling:**  
+  - Identified and removed extreme outliers in `area` that distorted the plots.
 
 ## 🧠 Skills Used
 
